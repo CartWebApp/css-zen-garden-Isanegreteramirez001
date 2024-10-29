@@ -1,1 +1,44 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+
+.intro{
+    background-color: rgb(0, 0, 0);
+
+}
+
+  #zed-intro {
+    border: 1px solid rgb(128, 0, 0);
+    background-color: rgb(255, 0, 208);
+  }
+
+  * {
+    border: 1px solid rgb(0, 17, 255);
+    background-color: rgb(255, 229, 81);
+  }
+
+  #firstname {
+    background-color: rgb(42, 255, 219);
+  }
+
+  h1 {
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  p {
+    background-color: rgb(248, 237, 89);
+    align-self: flex-end;   
+  }
+
+  div + p {
+    background-color: gold;
+    border: 1px solid gray;
+  }
+
+  p ~ ul {
+    background-color: gold;
+    border: 1px solid gray;
+  }
+
+  a:visited .strong{
+    color: rgb(0, 0, 0);
+  }
