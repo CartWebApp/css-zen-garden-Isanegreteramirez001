@@ -1,23 +1,11 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 
-.intro{
-    background-color: rgb(0, 0, 0);
-
-}
-
-  #zed-intro {
-    border: 1px solid rgb(128, 0, 0);
-    background-color: rgb(255, 0, 208);
-  }
 
   * {
     border: 1px solid rgb(0, 17, 255);
     background-color: rgb(255, 229, 81);
   }
 
-  #firstname {
-    background-color: rgb(42, 255, 219);
-  }
 
   h1 {
     border: 2px solid rgb(255, 0, 0);
@@ -29,16 +17,42 @@
     align-self: flex-end;   
   }
 
-  div + p {
-    background-color: gold;
-    border: 1px solid gray;
-  }
 
-  p ~ ul {
-    background-color: gold;
-    border: 1px solid gray;
-  }
-
-  a:visited .strong{
+  a:visited {
     color: rgb(0, 0, 0);
+  }
+
+  ::selection {
+    text-decoration: rgb(108, 147, 110);
+    background: rgb(156, 173, 241);
+  }
+
+  :root {
+    background-color: rgb(158, 49, 208);
+    padding: 30px;
+  }
+  
+  body {
+    background-color: rgb(194, 255, 28);
+    padding: 20px;
+  }
+
+  h3:only-child {
+border:1px black;
+  }
+
+li:only-of-type {
+color: 10px rgb(255, 0, 0);
+  }
+
+  a:active {
+    background-color: rgb(35, 250, 78);
+  }
+
+  a:link {
+    color: rgb(7, 0, 82);
+  }
+
+  a:hover {
+    font-size: 30px;
   }
