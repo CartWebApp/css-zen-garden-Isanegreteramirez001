@@ -56,3 +56,23 @@ color: 10px rgb(255, 0, 0);
   a:hover {
     font-size: 30px;
   }
+
+  p::after { 
+    content: " - Look Again";
+  }
+
+  p::before {
+    content: " You may see these links for information ";
+  }
+  
+  p::first-letter {
+    font-size: 100%;
+    font-weight: bold;
+    color: #8A2BE2;
+  }
+
+  p::first-line {
+    font-size: 20px;
+    text-decoration: underline; 
+    background-color: lightgreen;
+  }
